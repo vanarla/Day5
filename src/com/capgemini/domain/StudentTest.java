@@ -14,8 +14,8 @@ class StudentTest {
 	void testStudent()
 		throws NameNotValidException,AgeNotWithinRangeException {
 		//	assertEquals(null,new Student(11,"Sr",21,"Java"));
-			assertThrows(AgeNotWithinRangeException.class,()-> new Student(11,"Sri",22,"Java"));
-			assertThrows(NameNotValidException.class,()-> new Student(11,"Sri1",21,"Java"));
+			assertThrows(AgeNotWithinRangeException.class,()-> new Student(11,"Pallavi",22,"Java"));
+			assertThrows(NameNotValidException.class,()-> new Student(11,"Pallavi1",21,"Java"));
 	}
 
 }
